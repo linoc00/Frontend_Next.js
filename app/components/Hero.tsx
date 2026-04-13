@@ -25,7 +25,7 @@ export default function Hero() {
           letterSpacing: '0.3em', color: 'var(--muted-foreground)',
           marginBottom: 24,
         }}>
-          Founder &amp; Systems Architect
+          Founder, Teacher &amp; Software Developer
         </p>
 
         <h1 style={{
