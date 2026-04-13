@@ -43,7 +43,7 @@ export default function Hero() {
           color: 'var(--muted-foreground)', lineHeight: 1.4,
           letterSpacing: '-0.01em', maxWidth: 640, marginBottom: 16,
         }}>
-          I&apos;m <strong style={{ color: 'var(--foreground)', fontWeight: 700 }}>Your Name</strong>,
+          I&apos;m <strong style={{ color: 'var(--foreground)', fontWeight: 700 }}>Pasquale Cerullo</strong>,
           a software engineer building high-performance SaaS assets and native Mac utilities.
         </p>
 
@@ -81,8 +81,8 @@ export default function Hero() {
             fontSize: 10, fontWeight: 700, textTransform: 'uppercase',
             letterSpacing: '0.1em', textDecoration: 'none', transition: 'opacity 0.2s',
           }}
-          onMouseEnter={e => (e.currentTarget.style.opacity = '0.85')}
-          onMouseLeave={e => (e.currentTarget.style.opacity = '1')}
+            onMouseEnter={e => (e.currentTarget.style.opacity = '0.85')}
+            onMouseLeave={e => (e.currentTarget.style.opacity = '1')}
           >
             <MdEmail size={16} />
             <span>Newsletter</span>
